@@ -26,18 +26,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/vs980/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/lge/vs980/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/vs980/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/vs980/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/vs980/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/vs980/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lge/vs980/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/lge/vs980/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+    vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/vs980/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/lge/vs980/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/vs980/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/vs980/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/vs980/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -78,16 +85,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/lge/vs980/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/lge/vs980/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/lge/vs980/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/lge/vs980/proprietary/vendor/lib/hw/power.msm8974.so:system/vendor/lib/hw/power.msm8974.so \
     vendor/lge/vs980/proprietary/vendor/lib/hw/sensors.msm8974.so:system/vendor/lib/hw/sensors.msm8974.so \
     vendor/lge/vs980/proprietary/vendor/lib/libacdbmapper.so:system/vendor/lib/libacdbmapper.so \
     vendor/lge/vs980/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/lge/vs980/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/lge/vs980/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
-    vendor/lge/vs980/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-    vendor/lge/vs980/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/lge/vs980/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/lge/vs980/proprietary/vendor/lib/libAKM8963.so:system/vendor/lib/libAKM8963.so \
     vendor/lge/vs980/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
@@ -145,8 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/lge/vs980/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/lge/vs980/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -160,10 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera2_wnr_module.so:system/vendor/lib/libmmcamera2_wnr_module.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_cac_lib.so:system/vendor/lib/libmmcamera_cac_lib.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_hdr_lib.so:system/vendor/lib/libmmcamera_hdr_lib.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_image_stab.so:system/vendor/lib/libmmcamera_image_stab.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_imx132.so:system/vendor/lib/libmmcamera_imx132.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_imx135_eeprom.so:system/vendor/lib/libmmcamera_imx135_eeprom.so \
@@ -188,7 +187,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
     vendor/lge/vs980/proprietary/vendor/lib/libmsapm_jni.so:system/vendor/lib/libmsapm_jni.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libmsapu_jni.so:system/vendor/lib/libmsapu_jni.so \
     vendor/lge/vs980/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/lge/vs980/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
     vendor/lge/vs980/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
@@ -200,7 +198,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/lge/vs980/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/lge/vs980/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
     vendor/lge/vs980/proprietary/vendor/lib/libprofiler_msmadc.so:system/vendor/lib/libprofiler_msmadc.so \
     vendor/lge/vs980/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/lge/vs980/proprietary/vendor/lib/libqcgesture.so:system/vendor/lib/libqcgesture.so \
@@ -223,7 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/lge/vs980/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/lge/vs980/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libSecureTouchPerfApp.so:system/vendor/lib/libSecureTouchPerfApp.so \
     vendor/lge/vs980/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/vs980/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/vs980/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
@@ -231,15 +227,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lge/vs980/proprietary/vendor/lib/libSSEPKCS11.so:system/vendor/lib/libSSEPKCS11.so \
     vendor/lge/vs980/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/lge/vs980/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/vs980/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/vs980/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/vs980/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
     vendor/lge/vs980/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libv8.so:system/vendor/lib/libv8.so \
-    vendor/lge/vs980/proprietary/vendor/lib/libvideo_cor.so:system/vendor/lib/libvideo_cor.so \
     vendor/lge/vs980/proprietary/vendor/lib/libwfdcommonutils.so:system/vendor/lib/libwfdcommonutils.so \
     vendor/lge/vs980/proprietary/vendor/lib/libwfdhdcpcp.so:system/vendor/lib/libwfdhdcpcp.so \
     vendor/lge/vs980/proprietary/vendor/lib/libwfdmmsink.so:system/vendor/lib/libwfdmmsink.so \
@@ -257,9 +249,34 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
     vendor/lge/vs980/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/vs980/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/lge/vs980/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
-    vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_I2C_NCD_Signed_ORC.ncd \
-    vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
-    vendor/lge/vs980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
-    vendor/lge/vs980/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/vs980/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+    vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
+    vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd \
+    vendor/lge/vs980/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/lge/vs980/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
+    vendor/lge/vs980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/lge/vs980/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/lge/vs980/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/lge/vs980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/lge/vs980/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/lge/vs980/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/lge/vs980/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
+    vendor/lge/vs980/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
+    vendor/lge/vs980/proprietary/lib/libskia.so:system/lib/libskia.so \
+    vendor/lge/vs980/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_fuji_video_qtr.so:system/vendor/lib/libchromatix_imx135_fuji_video_qtr.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_hfr_120.so:system/vendor/lib/libchromatix_imx135_hfr_120.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_uhd_video.so:system/vendor/lib/libchromatix_imx135_uhd_video.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_video_hdr.so:system/vendor/lib/libchromatix_imx135_video_hdr.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_video_qtr.so:system/vendor/lib/libchromatix_imx135_video_qtr.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lge/vs980/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
+    vendor/lge/vs980/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so
