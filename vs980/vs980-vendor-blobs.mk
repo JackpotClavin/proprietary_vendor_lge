@@ -38,6 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+    vendor/lge/vs980/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
+    vendor/lge/vs980/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/vs980/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/vs980/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
