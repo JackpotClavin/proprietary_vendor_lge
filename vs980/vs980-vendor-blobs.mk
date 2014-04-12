@@ -264,7 +264,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/vs980/proprietary/lib/libmorpho_movie_stabilization.so:system/lib/libmorpho_movie_stabilization.so \
     vendor/lge/vs980/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
-    vendor/lge/vs980/proprietary/lib/libskia.so:system/lib/libskia.so \
+    vendor/lge/vs980/proprietary/lib/libLGsk.so:system/lib/libLGsk.so \
     vendor/lge/vs980/proprietary/lib/libVDObjectTrackerAPI.so:system/lib/libVDObjectTrackerAPI.so \
     vendor/lge/vs980/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/lge/vs980/proprietary/vendor/lib/libchromatix_imx135_fuji_video_qtr.so:system/vendor/lib/libchromatix_imx135_fuji_video_qtr.so \
