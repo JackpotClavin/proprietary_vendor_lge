@@ -254,6 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd \
+    vendor/lge/vs980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/vs980/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/vs980/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/lge/vs980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
