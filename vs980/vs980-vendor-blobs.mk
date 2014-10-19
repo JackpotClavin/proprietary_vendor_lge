@@ -255,6 +255,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_I2C_NCD_Signed.ncd \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0043_Generic_PreI2C_NCD_Signed.ncd \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
+    vendor/lge/vs980/proprietary/vendor/firmware/bu24205_LGIT_rev7_1_data1.bin:system/vendor/firmware/bu24205_LGIT_rev7_1_data1.bin \
+    vendor/lge/vs980/proprietary/vendor/firmware/bu24205_LGIT_rev7_1_data2.bin:system/vendor/firmware/bu24205_LGIT_rev7_1_data2.bin \
+    vendor/lge/vs980/proprietary/vendor/firmware/bu24205_LGIT_rev7_1_data3.bin:system/vendor/firmware/bu24205_LGIT_rev7_1_data3.bin \
+    vendor/lge/vs980/proprietary/vendor/firmware/bu24205_LGIT_rev9_5M.bin:system/vendor/firmware/bu24205_LGIT_rev9_5M.bin \
+    vendor/lge/vs980/proprietary/vendor/firmware/DLdata_rev11B_data1.ecl:system/vendor/firmware/DLdata_rev11B_data1.ecl \
+    vendor/lge/vs980/proprietary/vendor/firmware/DLdata_rev11B_data2.ecl:system/vendor/firmware/DLdata_rev11B_data2.ecl \
+    vendor/lge/vs980/proprietary/vendor/firmware/DLdata_rev11B_data3.ecl:system/vendor/firmware/DLdata_rev11B_data3.ecl \
     vendor/lge/vs980/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/vs980/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
     vendor/lge/vs980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
