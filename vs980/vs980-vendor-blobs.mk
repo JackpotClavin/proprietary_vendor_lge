@@ -46,6 +46,20 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:system/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/lge/vs980/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:system/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/lge/vs980/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b00:system/etc/firmware/adsp.b00 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b01:system/etc/firmware/adsp.b01 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b02:system/etc/firmware/adsp.b02 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b03:system/etc/firmware/adsp.b03 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b04:system/etc/firmware/adsp.b04 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b05:system/etc/firmware/adsp.b05 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b06:system/etc/firmware/adsp.b06 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b07:system/etc/firmware/adsp.b07 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b08:system/etc/firmware/adsp.b08 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b09:system/etc/firmware/adsp.b09 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b10:system/etc/firmware/adsp.b10 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
+    vendor/lge/vs980/proprietary/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
     vendor/lge/vs980/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/lge/vs980/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
     vendor/lge/vs980/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
