@@ -101,7 +101,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/vs980/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/vs980/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/vs980/proprietary/bin/cnd:system/bin/cnd \
     vendor/lge/vs980/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/lge/vs980/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/vs980/proprietary/bin/irsc_util:system/bin/irsc_util \
