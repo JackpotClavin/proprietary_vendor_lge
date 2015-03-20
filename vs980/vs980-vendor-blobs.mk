@@ -77,7 +77,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/lib/libvss_ims_qcci.so:system/lib/libvss_ims_qcci.so \
     vendor/lge/vs980/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
     vendor/lge/vs980/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/vs980/proprietary/lib/libLGbind.so:system/lib/libLGbind.so \
     vendor/lge/vs980/proprietary/lib/libuicc.so:system/lib/libuicc.so \
     vendor/lge/vs980/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
     vendor/lge/vs980/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
