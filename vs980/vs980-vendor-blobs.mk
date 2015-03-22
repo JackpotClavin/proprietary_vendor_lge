@@ -258,10 +258,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_PreI2C_NCD_Signed_configdata.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0098_Generic_PreI2C_NCD_Signed_configdata.ncd \
     vendor/lge/vs980/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/vs980/proprietary/lib/libchromatix_imx135_liveshot.so:system/lib/libchromatix_imx135_liveshot.so \
-    vendor/lge/vs980/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/lge/vs980/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/lge/vs980/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
-    vendor/lge/vs980/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/vs980/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/vs980/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/lge/vs980/proprietary/lib/libmorpho_video_denoiser.so:system/lib/libmorpho_video_denoiser.so \
